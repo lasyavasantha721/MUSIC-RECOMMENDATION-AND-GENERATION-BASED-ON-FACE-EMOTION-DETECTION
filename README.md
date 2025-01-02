@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project develops a system that leverages facial emotion recognition to recommend and generate personalized music tracks. By analyzing the user's facial expressions in real-time, the system tailors music recommendations to match their emotional state, enhancing the overall listening experience.
+This project develops a system that leverages facial emotion recognition to recommend personalized music tracks and generates new music. By analyzing the user's facial expressions in real-time, the system tailors music recommendations to match their emotional state, enhancing the overall listening experience.
 
 ## Features
 
-- **Emotion Detection:** Uses Convolutional Neural Networks (CNN) and ResNet50 to detect facial emotions from webcam input.
+- **Emotion Detection:** Uses ResNet50 model(pre trained CNN) to detect facial emotions from webcam input.
 - **Music Recommendation:** Employs a recommendation algorithm to suggest music tracks based on detected emotions.
 - **Music Generation:** Integrates Long Short-Term Memory (LSTM) models to generate personalized music sequences according to the user's mood.
 
